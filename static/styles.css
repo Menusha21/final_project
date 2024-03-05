@@ -1,0 +1,38 @@
+/* Reset default margin and padding */
+/* body, h1, p {
+    margin: 0;
+    padding: 0; */
+    
+/* } */
+.bb {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    opacity: 0.9;
+
+}
+/* Center the h1 */
+h1 {
+    text-align: center;
+    margin-top: 30px; /* Adjust as needed */
+}
+
+
+/* Style the navigation links */
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px; /* Add margin between links */
+    font-size: 18px;
+}
+.nav-links a:hover {
+    color: rgb(77, 77, 73);
+
+}
+
+.center{ 
+    display: flex;
+    justify-content: center;
+    
+}
